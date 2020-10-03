@@ -1,0 +1,106 @@
+
+body{
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+  background:url(board.jpg)no-repeat;
+  min-height: 100%;
+  margin: 0;
+}
+.gameTitle{
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+.gameTitle1{
+    font-size: 50px;
+    color: white;
+}
+td{
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+    cursor: pointer;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    position: absolute;
+    top:270px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+table tr:first-child td{
+    border-top: none;
+    color: white;
+}
+table tr:last-child td{
+    border-bottom: none;
+    color: white;
+}
+table tr td:first-child{
+    border-left: none;
+    color: white;
+}
+table tr td:last-child{
+    border-right: none;
+    color: white;
+}
+
+.endgame{
+    display: none;
+    width: 200px;
+    background-color: rgba(46, 139, 86, 0.849);
+    position: absolute;
+    top: 38%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 3em;
+}
+.button{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 480px;    
+}
+.restartBtn{
+    font-family: 'Architects Daughter', cursive;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border:  0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .25s ease-in-out;
+}
+.restartBtn:hover{
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+    background-color: white;
+}
+footer{
+    padding-top: 13px;
+    background-color: black;
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 585px;
+    font-size: 25px;
+    color: white;
+}
+.fa-linkedin-square {
+    color: white;
+}
+.fa-github {
+    color: white;
+}
