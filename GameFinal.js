@@ -27,7 +27,10 @@ const startGame = (() => {
         if(cell.target.innerText === ''){
             turn(cell.target.id, humanPlayer);  
             if(!checkWin(gameBoard,humanPlayer) && !checkTie()){
-                turn(bestSpot(), aiPlayer)
+                setTimeout(function(){
+                    turn(bestSpot(), aiPlayer);
+                },800);
+                
             }  
         }
     };
