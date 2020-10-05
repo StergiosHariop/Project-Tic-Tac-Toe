@@ -1,10 +1,9 @@
-
-body{
-  font-family: 'Architects Daughter', cursive;
-  text-align: center;
-  background:url(board.jpg)no-repeat;
-  min-height: 100%;
-  margin: 0;
+html,body{
+    margin: 0;
+    min-height: 100%;
+    font-family: 'Architects Daughter', cursive;
+    text-align: center;
+    background:url(board.jpg)no-repeat;
 }
 .gameTitle{
     margin-top: 20px;
@@ -27,11 +26,8 @@ td{
 }
 table{
     border-collapse: collapse;
-    position: absolute;
-    top:270px;
-    left: 0;
-    right: 0;
     margin: auto;
+    margin-top: 100px;
 }
 table tr:first-child td{
     border-top: none;
@@ -49,30 +45,24 @@ table tr td:last-child{
     border-right: none;
     color: white;
 }
-
 .endgame{
     display: none;
     width: 200px;
-    background-color: rgba(46, 139, 86, 0.849);
+    background-color: rgba(16, 112, 58, 0.849);
     position: absolute;
-    top: 38%;
+    top: 40%;
     left: 0;
     right: 0;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     font-size: 3em;
 }
-.button{
-    margin: auto;
-    text-align: center;
-    position: relative;
-    top: 480px;    
-}
 .restartBtn{
+    margin-top: 100px;
     font-family: 'Architects Daughter', cursive;
     padding: 10px 15px;
     font-size: 20px;
@@ -88,19 +78,17 @@ table tr td:last-child{
     color: black;
     background-color: white;
 }
-footer{
-    padding-top: 13px;
-    background-color: black;
-    position: relative;
-    height: 50px;
+.footer{
     width: 100%;
-    margin-top: 585px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
     font-size: 25px;
-    color: white;
 }
-.fa-linkedin-square {
-    color: white;
-}
-.fa-github {
+.fa-linkedin-square, .fa-github{
+    margin-top: 10px;
     color: white;
 }
