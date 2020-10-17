@@ -2,7 +2,8 @@
 
 https://www.theodinproject.com/lessons/tic-tac-toe-javascript
 
-Made with factory functions and MiniMax algorith in Javascript.
+- Practice of factory functions.
+- MiniMax algorith used (https://en.wikipedia.org/wiki/Minimax).
 
 <h3><b>Live:</b></h3>
 https://stergioshariop.github.io/Project-Tic-Tac-Toe/
